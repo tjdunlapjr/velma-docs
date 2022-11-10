@@ -16,3 +16,5 @@ Noted features are in **PREVIEW.** The [Azure Preview Supplemental Terms](https:
 ## December 2022
 
 **Version 1.0.0**
+
+Insert release note details.
