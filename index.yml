@@ -1,0 +1,43 @@
+### YamlMime:Landing
+
+title: Microsoft Defender for Firmware for device builders documentation
+summary: 'Microsoft Defender for Firmware reveals hidden threats not detectable by traditional source code scanning tools.'
+
+metadata: 
+   title: Microsoft Defender for Firmware for device builders documentation
+   description: Microsoft Defender for Firmware reveals hidden threats not detectable by traditional source code scanning tools.
+   services: service
+   ms.service: defender-for-firmware
+   ms.topic: landing-page
+   ms.collection: M365-security-compliance
+   author: terrydunlap
+   manager: dericknaef
+   ms.date: 11/10/2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+  - title: About Microsoft Defender for Firmware for device builders
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is Microsoft Defender for Firmware for device builders?
+            url: overview.md
+  - title: Get started
+    linkLists:
+      - linkListType: quickstart
+        links: 
+          - text: Uploading firmware into Defender for IoT
+            url: quickstart-upload-firmware.md
+  - title: How-to
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Understanding firmware scanning results
+            url: how-to-understand-firmware-results.md
+  - title: New in docs
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: What's new in firmware security for device builders?
+            url: release-notes.md
