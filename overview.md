@@ -32,10 +32,10 @@ Defender for Firmware enables you to quickly do X so that you can Y.
 
 ## Benefit #2
 
-The Defender for Firmware enables you to quickly do X so that you can Y.  
+Defender for Firmware enables you to quickly do X so that you can Y.  
 
 ## Benefit #3
 
-The Defender for Firmware enables you to quickly do X so that you can Y.  
+Defender for Firmware enables you to quickly do X so that you can Y.  
 
 ## Next steps
