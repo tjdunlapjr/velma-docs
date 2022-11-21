@@ -34,7 +34,7 @@ IoT attack vectors typically leverage easily exploitable--but easily correctable
 
 ## How can I be sure my firmware is secure?
 
-Microsoft Defender for Firmware will analyze your firmware for these common weakness and vulnerabilities. As a device builder, you will have unparalleled insights into the security of your firmware whether you build the firmware ih-house, receive firmware from your supply chain, or engage in hybrid firmware development model (supply chain and in-house development).
+Microsoft Defender for Firmware will analyze your firmware for these common weakness and vulnerabilities. As a device builder, you will have unparalleled insights into the security of your firmware whether you build the firmware in-house, receive firmware from your supply chain, or engage in hybrid firmware development model (supply chain and in-house development).
 
 ## Next steps
 
