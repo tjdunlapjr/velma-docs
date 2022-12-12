@@ -2,7 +2,7 @@
 title: What's new in Microsoft Defender for Firmware for device builders
 description: Learn about the latest updates for Defender for Firmware for device builders.
 ms.topic: conceptual
-ms.date: 11/18/2022
+ms.date: 12/13/2022
 ---
 
 # What's new
