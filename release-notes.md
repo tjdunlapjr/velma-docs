@@ -15,18 +15,32 @@ Noted features are in **PREVIEW.** The [Azure Preview Supplemental Terms](https:
 
 Most of the changes this month are behind the scenes in the architecture of our analysis pipeline -- we changed the underlying infrastructure hosting our services so that they are more secure and reliable, but that shouldn't change the results or add new analyzers.
 
-Additionally there are some tweaks in the UI as follows:
+### Added
 
-- New upload panel
+- Allow users to modify selection of firmware while overview side panel is open
 
-- New firmware overview panel
+- Aria labels added to non-textual buttons to meet accessibility compliance
 
-- New firmware edit panel
+- Show the subscription name along with the subscription id in the firmware details panel
 
-- Fix bug where analysis details were not updating when user selects a different row
+### Changed
 
-- Fix bug where firmware table was refreshing and moving scroll to top when user selects a different row
+- Refactored side panels to include footer buttons and fix various bugs (see below)
 
-- Fix bug where long vendor/model/version strings were overflowing their grid and stomping all over each other
+- Updated Portal SDK version to 10.204.0.1, and global .net core SDK to version 5.0.414
 
-- Allow file input text width (name of file chosen on upload) to fill up width of panel
+### Fixed
+
+- Firmware analysis updates properly when clicking to select another firmware while overview panel is open
+
+- Long firmware metadata strings are truncated properly in the overview panel now
+
+- Firmware inventory doesn't lose its nerve and reset the view any more when user selects a different firmware row while overview panel is open
+
+- The copy to clipboard icon in error boxes grew a backbone, no longer runs away when being hovered over
+
+- Truncated path lists in analysis table columns are serious business now too and have stopped playing hide-and-seek when hovering over them at very specific page widths
+
+- All overview panes with grey labels now meet color contrast accessibility guidelines
+
+- Fix copy icon from inadvertently refreshing the inventory
